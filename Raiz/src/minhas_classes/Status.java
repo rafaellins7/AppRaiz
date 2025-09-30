@@ -1,4 +1,4 @@
-package Classes_Clara;
+package App;
 
 public class Status {
 		private int id;
@@ -6,7 +6,7 @@ public class Status {
 	 
 		public Status() {
 		 }
-		public Status(int id, String statuss) {
+		public Status(int id, String status) {
 			this.id = id;
 			this.status = status;
 			}
@@ -20,9 +20,10 @@ public class Status {
 			
 			public String getStatuss() {
 				return this.status;
-				}
+			}
 			
 				public void setstatuss (String statuss) {
 				this.status = statuss;
-				}
-}
+			}
+
+	}
